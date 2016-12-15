@@ -1,0 +1,5 @@
+<div class="col-md-6 kia-reviews-form">
+	<p ng-repeat="review in $ctrl.reviews | orderBy:id:true">
+		{{ review.text }}
+	</p>
+</div>
